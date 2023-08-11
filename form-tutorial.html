@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>form input</h1>
+    <form action="" method=""></form>
+    <label>Nama lengkap</label><br />
+    <input type="text" name="nama" placeholder="nama lengkap" /><br />
+    <label>password</label><br />
+    <input type="password" name="password" placeholder="password" /><br />
+    <label>email</label><br />
+    <input type="email" name="email" placeholder="email" /><br />
+    <label>tanggal lahir</label><br />
+    <input type="date" name="date" /><br />
+    <label>jam</label><br />
+    <input type="time" name="time" /><br />
+    <label>foto</label><br />
+    <input type="file" name="file" /><br />
+    <label>skill bahasa arab</label><br />
+    <input type="range" name="skill-arab" /><br />
+    <label>Gender</label><br />
+    <select name="gender">
+      <option value="">--pilih--</option>
+      <option value="L">laki-laki</option>
+      <option value="P">perempuan</option>
+    </select>
+    <br />
+    <label>Golongan darah</label><br />
+    <input type="radio" name="darah" value="A" />
+    <label>A</label>
+    <input type="radio" name="darah" value="A" />
+    <label>B</label>
+    <input type="radio" name="darah" value="A" />
+    <label>O</label>
+    <input type="radio" name="darah" value="A" />
+    <label>AO</label><br />
+    <label>Hobi</label> <br />
+    <input type="checkbox" name="hobi1" value="membaca" />
+    <label>Membaca</label>
+    <input type="checkbox" name="hobi2" value="membaca" />
+    <label>Berlari</label>
+    <input type="checkbox" name="hobi2" value="membaca" />
+    <label>Berenang</label>
+    <input type="checkbox" name="hobi2" value="membaca" />
+    <label>Bermain</label>
+    <input type="checkbox" name="hobi2" value="membaca" />
+    <br>
+    <label>Warna</label> <br>
+    <input type="color" name="warna" />
+    <br /><br />
+    <input type="button" onclick="showAlert('zaky')" value="show-me" /> 
+    <input type="submit" value="Simpan data" />
+    <script>
+      function showAlert(name) {
+        return Alert("Hello" + name);
+      }
+    </script>
+  </body>
+</html>

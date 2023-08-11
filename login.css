@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap");
+* {
+  font-family: "roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbced6;
+}
+
+body .from-login h3 {
+  text-align: center;
+}
+body .from-login input {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 40px;
+  padding-left: 22px;
+  background-color: #cbced6;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+}
+body .from-login {
+  background-color: rgb(255, 255, 255);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  border-radius: 16px;
+  border-radius: 50px;
+}
+body .from-login p {
+  text-align: right;
+  margin-top: -8px;
+  margin-bottom: 40px;
+}
+body .from-login p .link-lupa-password {
+  text-decoration: none;
+  color: #0c2460;
+  font-size: 16px;
+  font-weight: 400px;
+}
+body .from-login .btn-login {
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #2516f5;
+  color: #fff;
+  font-weight: 700px;
+}
+body .from-login .btn-regis {
+  margin-top: 18px;
+  width: 100%;
+  border: 0%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #cbced6;
+  color: #000000;
+  font-weight: 700;
+  border: none;
+}
+body .from-login .btn-google {
+  margin-top: 18px;
+  width: 100%;
+  border: 0%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(4, 3, 5);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.logo{
+    position: absolute;
+    top: 87%;
+    left: 400px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+}
